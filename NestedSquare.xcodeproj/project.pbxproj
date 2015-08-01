@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		848150C31B6C9ECE00657F4F /* AoAmBaoHap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 848150C21B6C9ECE00657F4F /* AoAmBaoHap.mp3 */; };
 		8487F1511B687F98006487D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487F1501B687F98006487D0 /* main.m */; };
 		8487F1541B687F98006487D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487F1531B687F98006487D0 /* AppDelegate.m */; };
 		8487F1571B687F98006487D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487F1561B687F98006487D0 /* ViewController.m */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		848150C21B6C9ECE00657F4F /* AoAmBaoHap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AoAmBaoHap.mp3; sourceTree = "<group>"; };
 		8487F14B1B687F98006487D0 /* NestedSquare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NestedSquare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8487F14F1B687F98006487D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8487F1501B687F98006487D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		8487F14D1B687F98006487D0 /* NestedSquare */ = {
 			isa = PBXGroup;
 			children = (
+				848150C21B6C9ECE00657F4F /* AoAmBaoHap.mp3 */,
 				8487F1521B687F98006487D0 /* AppDelegate.h */,
 				8487F1531B687F98006487D0 /* AppDelegate.m */,
 				8487F1551B687F98006487D0 /* ViewController.h */,
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8487F15A1B687F98006487D0 /* Main.storyboard in Resources */,
+				848150C31B6C9ECE00657F4F /* AoAmBaoHap.mp3 in Resources */,
 				8487F15F1B687F98006487D0 /* LaunchScreen.xib in Resources */,
 				8487F15C1B687F98006487D0 /* Images.xcassets in Resources */,
 			);
@@ -416,6 +420,7 @@
 				8487F1701B687F99006487D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8487F1711B687F99006487D0 /* Build configuration list for PBXNativeTarget "NestedSquareTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +429,7 @@
 				8487F1731B687F99006487D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
